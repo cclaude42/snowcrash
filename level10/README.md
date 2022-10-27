@@ -58,13 +58,13 @@ while True:
 
 We're ready to exploit the executable. With `nc -lk localhost 6969` still running in our first terminal, we run each script in a second and third.
 
-## The flag
-
 Within milliseconds, `nc` displays what we want - the contents of `./token` :
 
 ```
 woupa2yuojeeaaed06riuj63c
 ```
+
+## The flag
 
 We use as password for `su flag10` and run `getflag` to get :
 
