@@ -19,6 +19,8 @@ John reveals the cracked password for flag01 :
 abcdefg
 ```
 
+## The flag
+
 We change users with `su flag01` and run `getflag`. We get the level01 flag :
 
 ```

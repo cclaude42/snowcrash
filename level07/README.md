@@ -31,6 +31,8 @@ export LOGNAME='$(getflag)'
 ./level07
 ```
 
+## The flag
+
 The program is successfully exploited and we get the level's flag :
 
 ```

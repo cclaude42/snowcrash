@@ -45,6 +45,8 @@ Now, we simply need to exploit it. We run :
 curl 'localhost:4747?x=$(getflag)'
 ```
 
+## The flag
+
 The `getflag` command is ran, and we get our flag :
 
 ```

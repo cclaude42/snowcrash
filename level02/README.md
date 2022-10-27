@@ -29,6 +29,8 @@ The user must've made mistakes, and corrected them with the DEL key. We remove t
 ft_waNDReL0L
 ```
 
+## The flag
+
 We change users with `su flag02` using this password and run `getflag`. We get the level02 flag :
 
 ```

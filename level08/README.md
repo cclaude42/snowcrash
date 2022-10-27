@@ -31,6 +31,8 @@ The program is tricked, and outputs the contents of `token`. It's not actually t
 quif5eloekouj29ke0vouxean
 ```
 
+## The flag
+
 We run `su flag08` and get our flag with getflag :
 
 ```

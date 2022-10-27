@@ -22,6 +22,8 @@ This is a Caesar cypher. [dcode.fr](https://www.dcode.fr/caesar-cipher) detects 
 nottoohardhere
 ```
 
+## The flag
+
 We change users with `su flag00` and run `getflag`. We get the level00 flag :
 
 ```

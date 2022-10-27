@@ -59,6 +59,8 @@ We can now execute our script with the following arguments :
 ./level06 /tmp/file.txt getflag
 ```
 
+## The flag
+
 The script runs `system("getflag")`, and we get the level 06 flag :
 
 ```

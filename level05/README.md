@@ -35,6 +35,8 @@ All we need to do is write a script to run getflag for us. We run :
 echo 'getflag > /tmp/flag05.txt' > /opt/openarenaserver/script
 ```
 
+## The flag
+
 Two minutes later, cron has ran the job, and we can read the level05 flag with `cat /tmp/flag05.txt` :
 
 ```

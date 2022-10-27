@@ -21,6 +21,8 @@ export PATH=/tmp:$PATH
 ./level03
 ```
 
+## The flag
+
 The executable is tricked, and we get the following flag :
 
 ```

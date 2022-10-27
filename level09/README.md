@@ -49,6 +49,8 @@ We run the script (on our local machine, the snow-crash VM doesn't have Python3)
 f3iji1ju5yuevaus41q1afiuq
 ```
 
+## The flag
+
 We try it as password for `su flag09` and it works ! Now all that's left is running `getflag` :
 
 ```
