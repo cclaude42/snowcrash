@@ -42,7 +42,7 @@ As expected, curl displays `value`. The CGI ran `echo value 2>&1` and returned t
 Now, we simply need to exploit it. We run :
 
 ```
-curl 'localhost:4747?x=$(getflag)'
+curl localhost:4747?x='$(getflag)'
 ```
 
 ## The flag

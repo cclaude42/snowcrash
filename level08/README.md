@@ -14,15 +14,13 @@ We try `./level08 token` :
 You may not access 'token'
 ```
 
-We run `string ./level08`. Along with the messages above, we see a string that reads `token`. It's likely that whoever wrote the program hardcoded it to prevent any file named "token" from being read.
+We run `strings ./level08`. Along with the messages above, we see a string that reads `token`. It's likely that whoever wrote the program hardcoded it to prevent any file named "token" from being read.
 
 We can circumvent this issue with a symbolic link. We run :
 
 ```
-cd /tmp
-ln -s /home/user/level08/token symlink
-cd
-./level08 /tmp/symlink
+ln -sf /home/user/level08/token /tmp/link
+./level08 /tmp/link
 ```
 
 The program is tricked, and outputs the contents of `token`. It's not actually the level's flag, but the password for user `flag08` :
